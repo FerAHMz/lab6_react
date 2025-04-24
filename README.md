@@ -2,7 +2,7 @@
 
 A web-based memory card game featuring Pokémon characters, built with React and the PokéAPI. Test your memory by matching Pokémon pairs across different difficulty levels.
 
-![Game Preview](game-preview.png)
+![Game Preview](lab6_preview.png)
 
 ## Features
 
