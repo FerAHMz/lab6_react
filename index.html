@@ -208,6 +208,22 @@
             background-color: #ff0000;
             transform: scale(1.05);
         }
+    
+        .github-btn {
+                background: #24292e;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 8px;
+                text-decoration: none;
+                margin-top: 20px;
+                display: inline-block;
+                transition: all 0.3s ease;
+        }
+        
+        .github-btn:hover {
+                background: #2f363d;
+                transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
@@ -374,6 +390,14 @@
                                 Hard
                             </button>
                         </div>
+                        <a 
+                            href="https://github.com/FerAHMz/lab6_react" 
+                            className="github-btn" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            View on GitHub
+                        </a>
                     </div>
                 );
             }
